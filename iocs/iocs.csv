@@ -1,0 +1,17 @@
+type,value,status,context
+domain,analiseteibutarista.com,active,Primary phishing domain investigated
+ipv4,185.190.143.246,observed,IP associated with analiseteibutarista.com during collection
+asn,AS51167,observed,Contabo GmbH
+domain,fiscalizacaoreceita.com,related,Strongly correlated phishing domain
+domain,searchapi.dnnl.live,inactive,Referenced in source code as CPF lookup API
+domain,dnnl.live,inactive,Root domain returned NXDOMAIN during investigation
+nameserver,1-you.njalla.no,observed,Njalla nameserver
+nameserver,2-can.njalla.in,observed,Njalla nameserver
+nameserver,3-get.njalla.fo,observed,Njalla nameserver
+sha256,faec467968913f7339b3159d5f11e3263b59c2d82c290f42dea0bb95663cb3a6,confirmed,Identical mobile_gate.js observed on two correlated domains
+url-path,/assets/js/mobile_gate.js,observed,Anti-analysis JavaScript
+url-path,/resultado/index.php,observed,Fake fiscal result page
+url-path,/chat/,observed,Scripted fake support chat
+url-path,/pix/criar.php,observed,PIX creation endpoint
+url-path,/pix/detalhes.php,observed,PIX status polling endpoint
+url-path,/pix/status.php,observed,Manual PIX status endpoint

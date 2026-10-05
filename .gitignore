@@ -1,0 +1,24 @@
+# Private evidence archives
+*.7z
+*.zip
+*.tar
+*.gz
+
+# Raw collected pages
+*.html
+
+# Captures / exports
+*.har
+*.pcap
+*.pcapng
+
+# Temporary files
+*.log
+*.tmp
+
+# Private evidence directories
+case_private/
+evidence_private/
+raw/
+captures/
+sessions/

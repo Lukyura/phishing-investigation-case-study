@@ -1,0 +1,2 @@
+faec467968913f7339b3159d5f11e3263b59c2d82c290f42dea0bb95663cb3a6  artifacts/mobile_gate.js
+e5750329df4793b3753eef1682fd543f9c75221b381dd3e1883335301c32cb15  artifacts/diff_desktop_mobile.txt

@@ -1,0 +1,33 @@
+# Desktop vs Mobile response comparison
+
+## Desktop
+
+<title>Bolo de Cenoura Caseiro – Receitas da Casa</title>
+
+## Mobile
+
+<title>Consulta - Situação Fiscal</title>
+
+## Relevant mobile-only script
+
+<script src="assets/js/mobile_gate.js"
+        data-is-tablet="0"
+        data-receita-url="receita.php"></script>
+
+## Relevant mobile form
+
+<form action="resultado/index.php" method="get" id="form-cpf">
+
+## Interpretation
+
+The server returned different HTML content depending on the simulated client.
+
+Desktop:
+- benign carrot cake recipe
+
+Mobile:
+- fake fiscal-status / gov.br themed page
+- CPF collection form
+- mobile_gate.js anti-analysis logic
+
+Full raw responses are intentionally not published.
