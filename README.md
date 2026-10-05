@@ -515,6 +515,37 @@ O mesmo kit pode ser utilizado por mais de um operador.
 
 ---
 
+## Evidências visuais
+
+### Conteúdo diferente entre desktop e mobile
+
+O mesmo domínio retornava títulos diferentes dependendo do cliente utilizado:
+
+```text
+Desktop → Bolo de Cenoura Caseiro – Receitas da Casa
+Mobile  → Consulta - Situação Fiscal
+```
+
+![Comparação entre desktop e mobile](screenshots/desktop-vs-mobile-title.png)
+
+### Mecanismo anti-analysis
+
+O arquivo `mobile_gate.js` verifica o tamanho real da tela para identificar acessos que utilizam User-Agent mobile em um computador.
+
+![Lógica anti-analysis do mobile_gate.js](screenshots/mobile-gate-anti-analysis.png)
+
+### Correlação entre campanhas
+
+O `mobile_gate.js` coletado de `analiseteibutarista.com` e o arquivo encontrado em `fiscalizacaoreceita.com` apresentaram o mesmo SHA-256:
+
+```text
+faec467968913f7339b3159d5f11e3263b59c2d82c290f42dea0bb95663cb3a6
+```
+
+![SHA-256 idêntico entre os artefatos](screenshots/identical-mobile-gate-hash.png)
+
+---
+
 ## Indicadores de Comprometimento
 
 Alguns IOCs identificados durante a análise:
