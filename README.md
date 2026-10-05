@@ -21,6 +21,13 @@ analiseteibutarista.com
 
 O comportamento observado era diferente dependendo do dispositivo utilizado.
 
+## Documentação
+
+- [Timeline da investigação](timeline.md)
+- [Indicadores de comprometimento](iocs/iocs.csv)
+- [Artefatos públicos](artifacts/)
+- [Hashes SHA-256](evidence/hashes/SHA256SUMS.txt)
+
 ### Desktop
 
 O servidor retornava uma página aparentemente legítima e inofensiva:
